@@ -15,6 +15,8 @@ Il contient des notebooks Jupyter, scripts et ressources permettant d’explorer
 - `SANA_RIAHI_Apprentissage par renforcement.ipynb` : TP sur l’apprentissage par renforcement appliqué aux neurosciences
 - `neuroscience_IRMf/` : Ressources liées à l’imagerie cérébrale (IRMf)
 - `td-neuro.txt` : Notes et consignes des TD
+
+
 ext...
 ---
 
