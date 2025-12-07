@@ -1,0 +1,62 @@
+# README – Neurosciences Computationnelles
+
+## À propos
+
+Ce projet rassemble des notebooks et des ressources pour **expérimenter avec les neurosciences computationnelles**.  
+L’idée est de comprendre comment le cerveau encode, traite et apprend des informations, mais de manière pratique : coder, simuler et analyser des données neuronales.
+
+## Organisation
+
+### Ressources et setup
+
+* **VSCode / Jupyter Notebook** : l’environnement recommandé pour bosser avec les notebooks Python.  
+* **Python / Anaconda** : pour installer facilement toutes les bibliothèques nécessaires (numpy, matplotlib, pandas, etc.).  
+
+## Organisation des notebooks
+
+Chaque notebook permet de manipuler des concepts clés en neurosciences computationnelles :
+
+### 1. Calcul neuronal / GLM
+- Étudier comment les neurones codent les signaux.  
+- Utiliser des **modèles linéaires généralisés (GLM)** pour prédire l’activité neuronale.  
+- Expérimenter avec des données simulées ou réelles pour comprendre les relations entre stimuli et réponse neuronale.
+
+### 2. Neurone intégrateur à fuite
+- Simuler le comportement d’un neurone simple.  
+- Comprendre le **modèle intégrateur à fuite** et comment il répond aux entrées synaptiques.  
+- Observer l’effet de paramètres comme le seuil, la constante de temps et le courant injecté.
+
+### 3. IRMf
+- Explorer des données d’**IRM fonctionnelle**.  
+- Décoder l’activité cérébrale pour comprendre quelles régions sont activées par différents stimuli.  
+- Visualiser et analyser les signaux temporels et spatiaux.
+
+### 4. Renforcement / Apprentissage par renforcement
+- Implémenter des modèles simples d’**agents apprenant à maximiser une récompense**.  
+- Comprendre les principes de base de la **plasticité et de l’apprentissage par renforcement**.  
+- Tester différents scénarios et observer comment les stratégies évoluent avec l’expérience.
+
+### Explorations
+
+Les notebooks contiennent des expérimentations autour de :  
+
+* **IRMf et décodage neuronal** : analyser des signaux, extraire des patterns, comprendre ce que le cerveau encode.  
+* **Modèles GLM** : modéliser l’activité neuronale avec des modèles statistiques.  
+* **Neurones Hodgkin-Huxley** : simuler le comportement électrique d’un neurone.  
+* **Plasticité et apprentissage** : observer comment les neurones changent avec l’expérience et tester l’apprentissage par renforcement.  
+* **Renforcement avancé** : manipuler des modèles pour voir comment un agent apprend à maximiser une récompense.  
+
+## Installation et environnement Python
+
+Pour coder et exécuter les notebooks :  
+
+```bash
+# Installer Anaconda ou Miniconda
+# Créer un environnement Python
+conda create -n neuro python=3.11
+
+# Activer l’environnement
+conda activate neuro
+
+# Installer les packages nécessaires
+pip install numpy matplotlib pandas seaborn jupyter scikit-learn
