@@ -1,62 +1,58 @@
-# README – Neurosciences Computationnelles
+# 🧠 Neurosciences Computationnelles – Playground
 
-## À propos
+![Python](https://img.shields.io/badge/python-3.11-blue) ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange) ![License](https://img.shields.io/badge/license-MIT-green)
 
-Ce projet rassemble des notebooks et des ressources pour **expérimenter avec les neurosciences computationnelles**.  
-L’idée est de comprendre comment le cerveau encode, traite et apprend des informations, mais de manière pratique : coder, simuler et analyser des données neuronales.
+Bienvenue dans le **laboratoire numérique des neurosciences computationnelles** !  
+Ici, tu peux **simuler, coder et explorer le cerveau** à travers des notebooks interactifs.
 
-## Organisation
+---
 
-### Ressources et setup
+## 🚀 Objectif du projet
 
-* **VSCode / Jupyter Notebook** : l’environnement recommandé pour bosser avec les notebooks Python.  
-* **Python / Anaconda** : pour installer facilement toutes les bibliothèques nécessaires (numpy, matplotlib, pandas, etc.).  
+Ce projet est destiné à **apprendre en pratiquant** :  
 
-## Organisation des notebooks
+- Comprendre comment les neurones codent et traitent l’information.  
+- Explorer les modèles neuronaux et la plasticité.  
+- Expérimenter avec des données réelles ou simulées.  
+- Développer une intuition sur le fonctionnement du cerveau grâce à Python.
 
-Chaque notebook permet de manipuler des concepts clés en neurosciences computationnelles :
+---
 
-### 1. Calcul neuronal / GLM
-- Étudier comment les neurones codent les signaux.  
-- Utiliser des **modèles linéaires généralisés (GLM)** pour prédire l’activité neuronale.  
-- Expérimenter avec des données simulées ou réelles pour comprendre les relations entre stimuli et réponse neuronale.
+## 🗂 Organisation des notebooks
 
-### 2. Neurone intégrateur à fuite
-- Simuler le comportement d’un neurone simple.  
-- Comprendre le **modèle intégrateur à fuite** et comment il répond aux entrées synaptiques.  
-- Observer l’effet de paramètres comme le seuil, la constante de temps et le courant injecté.
+Chaque notebook couvre un aspect clé des neurosciences computationnelles :
 
-### 3. IRMf
-- Explorer des données d’**IRM fonctionnelle**.  
-- Décoder l’activité cérébrale pour comprendre quelles régions sont activées par différents stimuli.  
-- Visualiser et analyser les signaux temporels et spatiaux.
+### 1️⃣ Calcul neuronal & GLM
+- Analyse comment les neurones codent des signaux.  
+- Implémente des **modèles linéaires généralisés (GLM)**.  
+- Teste avec des données simulées ou réelles.
 
-### 4. Renforcement / Apprentissage par renforcement
-- Implémenter des modèles simples d’**agents apprenant à maximiser une récompense**.  
-- Comprendre les principes de base de la **plasticité et de l’apprentissage par renforcement**.  
-- Tester différents scénarios et observer comment les stratégies évoluent avec l’expérience.
+### 2️⃣ Neurone intégrateur à fuite
+- Simule le **neurone intégrateur à fuite**.  
+- Étudie l’effet du seuil, de la constante de temps et du courant injecté.
 
-### Explorations
+### 3️⃣ IRMf
+- Explore des **données d’IRM fonctionnelle**.  
+- Découvre quelles régions du cerveau s’activent selon les stimuli.  
+- Visualise les signaux temporels et spatiaux.
 
-Les notebooks contiennent des expérimentations autour de :  
+### 4️⃣ Apprentissage par renforcement
+- Crée des agents qui apprennent à maximiser une récompense.  
+- Observe la **plasticité et l’adaptation** des stratégies.  
+- Expérimente différents scénarios d’apprentissage.
 
-* **IRMf et décodage neuronal** : analyser des signaux, extraire des patterns, comprendre ce que le cerveau encode.  
-* **Modèles GLM** : modéliser l’activité neuronale avec des modèles statistiques.  
-* **Neurones Hodgkin-Huxley** : simuler le comportement électrique d’un neurone.  
-* **Plasticité et apprentissage** : observer comment les neurones changent avec l’expérience et tester l’apprentissage par renforcement.  
-* **Renforcement avancé** : manipuler des modèles pour voir comment un agent apprend à maximiser une récompense.  
+### 5️⃣ Explorations avancées
+- Modèles **Hodgkin-Huxley** pour simuler l’électrophysiologie.  
+- Analyse et décodage neuronal d’IRMf.  
+- Approfondissement de la **plasticité et du renforcement**.
 
-## Installation et environnement Python
+---
 
-Pour coder et exécuter les notebooks :  
+## ⚡ Installation et setup rapide
+
+1. Installer Anaconda ou Miniconda.
+2. Créer un environnement Python :
 
 ```bash
-# Installer Anaconda ou Miniconda
-# Créer un environnement Python
 conda create -n neuro python=3.11
-
-# Activer l’environnement
 conda activate neuro
-
-# Installer les packages nécessaires
-pip install numpy matplotlib pandas seaborn jupyter scikit-learn
